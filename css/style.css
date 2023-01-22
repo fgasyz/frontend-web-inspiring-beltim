@@ -1,0 +1,156 @@
+@import url('./index.css');
+
+@media screen and (max-width: 576px) {
+    .jumbotron {
+        height: 700px;
+        width: 100%;
+    }
+    .jumbotron-title {
+        top: 220px;
+    }
+    .login-button {
+        margin-left: 0;
+    }
+    .nav-link {
+        text-align: center;
+    }
+    .agregation-card {
+        top: 650px;
+        width: 100%;
+    }
+    .new-activities {
+        margin-top: 125px;
+    }
+    .card {
+        margin-top: 10px;
+    }
+    .tab-bar-navigation {
+        align-items: center;
+    }
+    .jumbotron-title h1 {
+        font-size: 80px;
+        text-align: center;
+    }
+    
+    .jumbotron-title h1 span {
+        color: #FFB200;
+    }
+    
+    .jumbotron-title h2 {
+        font-size: 50px;
+        text-align: center;
+    }
+    
+    .jumbotron-title h4 {
+        text-align: center;
+    }
+}
+
+@media (min-width: 576px) {
+    .jumbotron-title h1 {
+        font-size: 80px;
+        text-align: center;
+    }
+    
+    .jumbotron-title h1 span {
+        color: #FFB200;
+    }
+    
+    .jumbotron-title h2 {
+        font-size: 50px;
+        text-align: center;
+    }
+    
+    .jumbotron-title h4 {
+        text-align: center;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .jumbotron-title {
+        top: 300px;
+    }
+    .jumbotron-title h1 {
+        margin-top: 10px;
+        font-size: 80px;
+        text-align: center;
+    }
+    
+    .jumbotron-title h1 span {
+        color: #FFB200;
+    }
+    
+    .jumbotron-title h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    .jumbotron-title h4 {
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) {
+    .jumbotron-title {
+        top: 300px;
+    }
+    .jumbotron-title h1 {
+        font-size: 70px;
+        text-align: left;
+    }
+    
+    .jumbotron-title h1 span {
+        color: #FFB200;
+    }
+    
+    .jumbotron-title h2 {
+        font-size: 50px;
+        text-align: left;
+    }
+    
+    .jumbotron-title h4 {
+        text-align: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    .jumbotron-title h1 {
+        font-size: 80px;
+        text-align: left;
+    }
+    
+    .jumbotron-title h1 span {
+        color: #FFB200;
+    }
+    
+    .jumbotron-title h2 {
+        font-size: 50px;
+        text-align: left;
+    }
+    
+    .jumbotron-title h4 {
+        text-align: center;
+    }
+}
+
+@media (min-width: 1400px) {
+    .jumbotron-title h1 {
+        font-size: 100px;
+        text-align: left;
+    }
+    
+    .jumbotron-title h1 span {
+        color: #FFB200;
+    }
+    
+    .jumbotron-title h2 {
+        font-size: 50px;
+        text-align: left;
+    }
+    
+    .jumbotron-title h4 {
+        text-align: center;
+        font-size: 30px;
+    }
+}

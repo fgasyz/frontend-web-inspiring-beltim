@@ -1,0 +1,30 @@
+/* @media screen and (max-width: 990px) {
+    .login-button {
+        margin-left: 0;
+    }
+    .login-button .nav-font {
+        color: #ffff; 
+        text-align: center;
+    }
+    .jumbotron-title {
+        margin-top: -30px;
+    }
+    .agregation-card {
+        position: absolute;
+        border-radius: 10px;
+        bottom: 50px;
+        background-color: #ffff;
+        width: 60%;
+        height: 125px;
+    }
+} */
+
+@media (min-width: 480px) { 
+    .login-button {
+        margin-left: 0;
+    }
+    .login-button .nav-font {
+        color: #ffff; 
+        text-align: center;
+    }
+}

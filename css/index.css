@@ -1,0 +1,216 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F0F6FC;
+    font-family: 'Ubuntu';
+    scroll-behavior: smooth;
+    animation: fadeIn;
+    animation-duration: 2s;
+}
+
+header {
+    background-color: #F0F6FC;
+}
+
+.title-logo {
+    align-self: flex-end;
+    font-weight: bold;
+    margin: 0;
+}
+
+.login-button {
+    border-radius: 5px;
+    padding: 2px 50px;
+    background-color: #2f3270;
+    margin-left: 50px;
+}
+
+.login-button .nav-font {
+    color: #ffff; 
+}
+
+.jumbotron {
+    height: 700px;
+    width: 100%;
+    position: relative;
+}
+
+.jumbotron::before {
+    content: '';
+    width: 100%;
+    height: 600px;
+    background-color: #ffff;
+    opacity: 0.2;
+    position: absolute;
+}
+
+.hero {
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.jumbotron-title {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1
+}
+
+.jumbotron-title h4 {
+    text-align: center;
+}
+
+.jumbotron-title h1 {
+    font-family: "Syne";
+    font-size: 100px;
+    color: rgba(47,50,112,1);
+}
+
+.jumbotron-title h1 span {
+    color: #FFB200;
+}
+
+.jumbotron-title h2 {
+    font-family: "Varela";
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: -20px;
+    color: #ffff;
+}
+
+.jumbotron-title h4 {
+    font-family: "Syne";
+    color: rgba(255,244,207,1);
+    font-weight: Italic;
+}
+
+.agregation-card {
+    position: absolute;
+    left: 50%;
+    top: 625px;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    background-color: #ffff;
+    width: 60%;
+    height: 150px;
+}
+
+.tourist {
+    position: relative;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #CAF0F8;
+}
+
+.tour-card {
+    opacity: 0;
+}
+
+.show-card {
+    display: block;
+    opacity: 1;
+    transition: all 1s ease-in-out;
+}
+
+.new-activities {
+    margin-top: 120px;
+}
+
+.tour-destination {
+    margin-top: 35px;
+}
+
+.title {
+    color: rgba(47,50,112,1);
+    font-weight: bold;
+}
+
+.description {
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.card-description {
+    text-align: justify;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.tour-active {
+    background-color: #2f3270; 
+    color: #ffff; 
+    padding: 8px 10px; 
+    border-radius: 5px;
+}
+
+.button {
+    background-color: #FFB200; 
+    padding: 2px 4px; 
+    width: fit-content; 
+    border-radius: 5px;
+}
+      
+.black-overlay:hover{
+    position: relative;
+    opacity: 0.5;
+}
+
+.black-overlay::before {
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-color: #020202;
+    opacity: 0.5;
+    transition: opacity 1s ease-out;
+}
+
+.tour-text {
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ffff;
+    font-size: 18px;
+    font-weight: bold;
+}           
+
+.one, .two, .three, .four, .five, .six, .seven, .eight {
+    margin-right: 10px;
+}
+
+.scroll-behavior {
+    scroll-behavior: smooth;
+}
+
+.nav-link {
+    color: #020202;
+}
+
+.nav-link:hover {
+    color: #020202;
+}
+
+.tourism-card {
+    width: 250px;
+    height: 250px;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
+
+.custom-modal {
+    height: 500px;
+    overflow: scroll;
+}
+
+.modal-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
